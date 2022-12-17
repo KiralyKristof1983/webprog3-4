@@ -5,8 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>KK :: CV</title>
+        @vite('resources/js/app.js')
     </head>
-    <body>
-
+    <body> 
+<div id="app"></div>
     </body>
 </html>
