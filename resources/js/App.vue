@@ -1,4 +1,4 @@
-<template>
+r<template>
 <div id="wrapper">
 
     <div class="sidebar">
@@ -7,10 +7,10 @@
 
         <div class="side-links">
             <ul>
-                <li><a class="active" href="index.html">Kezdőlap</a></li>
-                <li><a href="blog.html">Munkáim</a></li>
-                <li><a href="about.html">Rólam</a></li>
-                <li><a href="contact.html">Kapcsolat</a></li>
+                <li><router-link :to="{name:'Jobs'}">Munkáim</router-link></li>
+                <li><router-link :to="{name:'Home'}">Kezdőlap</router-link></li>
+                <li><router-link :to="{name:'About'}">Rólam</router-link></li>
+                <li><router-link :to="{name:'Contact'}">Kapcsolat</router-link></li>
             </ul>
         </div>
 
