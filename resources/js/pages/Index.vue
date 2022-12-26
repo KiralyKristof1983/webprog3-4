@@ -1,9 +1,10 @@
-
 <template>
   <header class="header">
         <div class="header-text">
           <h1>Király Kristóf Portfólió oldala!</h1>
-          <h4>Rólam és néhány munkámról</h4>
+          
+          <h4>Rólam és néhány munkámról.</h4>
+          
         </div>
         <div class="overlay"></div>
       </header>
@@ -16,7 +17,7 @@
               <span style="float: right">Írta: Király Kristóf</span>
             </p>
             <h4 style="font-weight: bolder">
-                <a href="single-job.html">Az IBM ezt a munkát kérte</a>
+                <a href="job/ibm">Az IBM-nél</a>
             </h4>
           </div>
 
@@ -27,7 +28,7 @@
               <span style="float: right">Írta: Király Kristóf</span>
             </p>
             <h4 style="font-weight: bolder">
-              <a href="single-job.html">3M</a>
+              <a href="single-job2.html">3M</a>
             </h4>
           </div>
 

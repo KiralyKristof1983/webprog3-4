@@ -1,16 +1,18 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import About from '../pages/About.vue'
-import Home from "../pages/Home.vue";
+import Index from "../pages/Index.vue";
+import About from "../pages/About.vue";
 import Jobs from "../pages/Jobs.vue";
 import Contact from "../pages/Contact.vue";
 import SingleJob from "../pages/SingleJob.vue";
+import SingleJob2 from "../pages/SingleJob2.vue";
+
 
 const routes = [
     {
-        path: "/",
-        name: "Home",
-        component: Home,
+        path: "/index",
+        name: "Index",
+        component: Index,
     },
     {
         path: "/about",
@@ -28,9 +30,15 @@ const routes = [
         component: Contact,
     },
     {
-        path: "/job/:slug",
+        path: "/job/ibm",
         name: "SingleJob",
         component: SingleJob,
+        props: true,
+    },
+    {
+        path: "/job/3m",
+        name: "SingleJob2",
+        component: SingleJob2,
         props: true,
     },
 ];

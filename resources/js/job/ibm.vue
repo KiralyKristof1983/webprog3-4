@@ -37,7 +37,7 @@
             <span>Irta Király Kristóf</span>
           </p>
           <h4 style="font-weight: bolder">
-            <a href="job/3m">3M az egyik kedvenc cégem</a>
+            <a href="single-job.html">3M az egyik kedvenc cégem</a>
           </h4>
         </div>
 
