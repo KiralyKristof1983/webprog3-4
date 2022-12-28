@@ -6,7 +6,9 @@ import Jobs from "../pages/Jobs.vue";
 import Contact from "../pages/Contact.vue";
 import SingleJob from "../pages/SingleJob.vue";
 import SingleJob2 from "../pages/SingleJob2.vue";
-
+import Login from "../pages/Login.vue";
+import Register from "../pages/Register.vue";
+import Dashboard from "../pages/Dashboard.vue";
 
 const routes = [
     {
@@ -40,6 +42,21 @@ const routes = [
         name: "SingleJob2",
         component: SingleJob2,
         props: true,
+    },
+    {
+        path: "/login",
+        name: "Login",
+        component: Login,
+    },
+    {
+        path: "/register",
+        name: "Register",
+        component: Register,
+    },
+    {
+        path: "/dashboard",
+        name: "Dashboard",
+        component: Dashboard,
     },
 ];
 

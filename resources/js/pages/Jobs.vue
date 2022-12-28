@@ -59,7 +59,7 @@
             <span>Irta Király Kristóf</span>
           </p>
           <h4 style="font-weight: bolder">
-            <a href="single-job.html">SanDisk adathordozok a világban</a>
+            <a href="single-job.html">SanDisk adathordozók a világban</a>
           </h4>
         </div>
 
