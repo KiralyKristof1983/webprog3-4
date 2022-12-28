@@ -1,8 +1,8 @@
 <template>
   <div id="backend-view">
-    <div class="logout"><a href="#">Log out</a></div>
+    <div class="logout"><a href="#">Kijelentkezés</a></div>
     <h1 class="heading">Irányítópult</h1>
-    <span>Szia Kristóf ?</span>
+    <span>Szia Kristóf!</span>
     <div class="links">
       <ul>
         <li><a href="">Bejegyzés létrehozása</a></li>

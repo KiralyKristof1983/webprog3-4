@@ -9,7 +9,7 @@
       <input type="password" id="password" />
 
       <button type="submit">Bejelentkezés</button>
-      <span>Nincs fiókod még?  <a href="">Regisztrálj most!</a></span>
+      <span>Nincs fiókod még?  <a href="register">Regisztrálj most!</a></span>
     </form>
   </div>
 </template>

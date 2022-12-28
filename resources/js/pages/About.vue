@@ -8,7 +8,7 @@
         </p>
 
         <div class="single-job-post-ContentImage" data-aos="fade-left">
-          <img src="/images/en.jpg" alt="" />
+          <img src="/images/enn.jpg" alt="" />
         </div>
 
         <div class="about-text">
@@ -21,7 +21,7 @@
 
             <li>Vagyok! </li>
 
-            <li>Cogito ergo sum </li>
+            <li>Cogito ergo sum = Gondolkodom, tehát vagyok</li>
             
           </ul>
         </p>
