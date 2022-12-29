@@ -12,10 +12,16 @@
       </div>
       <div class="categories">
         <ul>
-          <li><a href="job/ibm">IBM</a></li>
-          <li><a href="job/3m">3M</a></li>
-          <li><a href="job/hp">HP</a></li>
-          <li><a href="job/sandisk">SanDisk</a></li>
+        <div class="recommended-card">
+          <li><a href="job/ibm">IBM - mel kapcsolatos írás</a></li>
+          </div>
+          <div class="recommended-card">
+          <li><a href="job/3m">3M - mel kapcsolatos írás</a></li></div>
+          <div class="recommended-card">
+          <li><a href="job/hp">HP - val kapcsolatos írás</a></li>
+          </div>
+          <div class="recommended-card">
+          <li><a href="job/sandisk">SanDisk - kel kapcsolatos írás</a></li></div>
           
         </ul>
       </div>

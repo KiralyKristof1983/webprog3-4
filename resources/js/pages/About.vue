@@ -15,22 +15,21 @@
         <p>
             Én vagyok!
             <br /><br />
-            Király Kristóf
+            Király Kristóf<br />
         <ul>
-            <li> 1983.01.05. születtem Kerepestarcsán </li>
+            <li> 1983.01.05. születtem Kerepestarcsán </li><br />
 
-            <li>Vagyok! </li>
+            <li> Az informatikai tudásomat az Eszterházy Károly Katolikus Egyetem Jászberényi Campusán<br />
+              FOSZ-os képzésen probálom fejleszteni, mert nagyon alapszintű volt.  </li><br />
 
-            <li>Cogito ergo sum = Gondolkodom, tehát vagyok</li>
-            
-          </ul>
+            <li>Unix Auto Kft.-nél dolgozok mint Kiszállító értékesítő több mint 10 éve.</li>
+        </ul>
         </p>
         </div>
       </section>
       <section class="recommended">
-        <p>Kis családom.</p>
+        <p><h3>Kis családom.</h3></p>
         <div class="recommended-cards">
-          
           <a href="">
             <div class="recommended-card">
               <img src="/images/csilla.jpg" alt="" loading="lazy" />
@@ -43,7 +42,7 @@
             <div class="recommended-card">
               <img src="/images/KloéKincső.jpg" alt="" loading="lazy" />
               <h4>
-                Drága lányaim Király Kloé és Király Kincső!
+                Drága ikerlányaim Király Kloé és<br />Király Kincső!
               </h4>
             </div>
           </a>

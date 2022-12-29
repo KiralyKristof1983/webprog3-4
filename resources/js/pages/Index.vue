@@ -17,7 +17,7 @@
               <span style="float: right">Írta: Király Kristóf</span>
             </p>
             <h4 style="font-weight: bolder">
-                <a href="job/ibm">Az IBM-nél</a>
+                <a href="jobs">Az IBM-nél</a>
                 
             </h4>
           </div>
@@ -29,7 +29,7 @@
               <span style="float: right">Írta: Király Kristóf</span>
             </p>
             <h4 style="font-weight: bolder">
-              <a href="single-job2.html">3M</a>
+              <a href="jobs">3M</a>
             </h4>
           </div>
 
@@ -40,7 +40,7 @@
               <span style="float: right">Írta: Király Kristóf</span>
             </p>
             <h4 style="font-weight: bolder">
-              <a href="single-job.html">HP</a>
+              <a href="jobs">HP</a>
             </h4>
           </div>
 
@@ -51,7 +51,7 @@
               <span style="float: right">Írta: Király Kristóf</span>
             </p>
             <h4 style="font-weight: bolder">
-              <a href="single-job.html">SanDisk</a>
+              <a href="jobs">SanDisk</a>
             </h4>
           </div>
         </section>
