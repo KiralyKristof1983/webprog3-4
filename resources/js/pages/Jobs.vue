@@ -12,10 +12,11 @@
       </div>
       <div class="categories">
         <ul>
-          <li><a href="">IBM</a></li>
-          <li><a href="">3M</a></li>
-          <li><a href="">HP</a></li>
-          <li><a href="">SanDisk</a></li>
+          <li><a href="job/ibm">IBM</a></li>
+          <li><a href="job/3m">3M</a></li>
+          <li><a href="job/hp">HP</a></li>
+          <li><a href="job/sandisk">SanDisk</a></li>
+          
         </ul>
       </div>
       <section class="cards-blog latest-blog">
@@ -48,7 +49,7 @@
             <span>Irta Király Kristóf</span>
           </p>
           <h4 style="font-weight: bolder">
-            <a href="single-job.html">HP laptop pozítivuma </a>
+            <a href="job/hp">HP laptop pozítivuma </a>
           </h4>
         </div>
 
@@ -59,7 +60,7 @@
             <span>Irta Király Kristóf</span>
           </p>
           <h4 style="font-weight: bolder">
-            <a href="single-job.html">SanDisk adathordozók a világban</a>
+            <a href="job/sandisk">SanDisk adathordozók a világban</a>
           </h4>
         </div>
 

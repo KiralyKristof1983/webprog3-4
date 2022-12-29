@@ -9,6 +9,8 @@ import SingleJob2 from "../pages/SingleJob2.vue";
 import Login from "../pages/Login.vue";
 import Register from "../pages/Register.vue";
 import Dashboard from "../pages/Dashboard.vue";
+import SingleJob3 from "../pages/SingleJob3.vue";
+import SingleJob4 from "../pages/SingleJob4.vue";
 
 const routes = [
     {
@@ -57,6 +59,18 @@ const routes = [
         path: "/dashboard",
         name: "Dashboard",
         component: Dashboard,
+    },
+    {
+        path: "/job/hp",
+        name: "SingleJob3",
+        component: SingleJob3,
+        props: true,
+    },
+    {
+        path: "/job/sandisk",
+        name: "SingleJob4",
+        component: SingleJob4,
+        props: true,
     },
 ];
 
