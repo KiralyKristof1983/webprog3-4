@@ -32,7 +32,7 @@
         </div>
       </section>
       <section class="recommended">
-        <p>Related</p>
+        <p>Érdekességek</p>
         <div class="recommended-cards">
           <a href="">
             <div class="recommended-card">
