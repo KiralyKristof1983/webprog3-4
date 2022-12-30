@@ -1,9 +1,7 @@
 <template>
   <div id="backend-view">
-    <form>
+    <form method="post">
       <h3>Bejelentkezés itt</h3>
-
-      
 
       <label for="email">E-mail</label>
       <input type="text" id="email" />

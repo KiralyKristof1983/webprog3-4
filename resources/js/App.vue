@@ -32,8 +32,7 @@
       <div class="menuButton" >
         <div class="bar"></div>
         <div class="bar"></div>
-        <div class="bar"></div>
-        
+        <div class="bar"></div>        
       </div>
       
       <main class="container">

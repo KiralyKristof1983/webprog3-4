@@ -4,12 +4,15 @@
     <h3>Regisztálj itt!</h3>
     <label for="name">Név</label>
     <input type="text" id="name" v-model="fields.name" />
+    <span v-if="errors.name" class="error">{{ errors.name[0] }}</span>
 
     <label for="email">E-mail</label>
     <input type="text" id="email" v-model="fields.email" />
+    <span v-if="errors.email" class="error">{{ errors.email[0] }}</span>
 
     <label for="password">Jelszó</label>
     <input type="password" id="password" v-model="fields.password" />
+    <span v-if="errors.password" class="error">{{ errors.password[0] }}</span>
 
     <label for="password_confirmation">Jelszó megerősítése</label>
     <input type="password" id="password_confirmation" v-model="fields.password_confirmation"/>
@@ -25,6 +28,7 @@ export default {
     data() {
         return {
             fields: {},
+            errors: {},
         };
     },
     methods: {
@@ -35,7 +39,7 @@ export default {
                     this.$router.push({ name: "Dashboard" });
                 })
                 .catch((error) => {
-                    console.log(error);
+                    this.errors = error.response.data.errors;
                 });
         },
     },
