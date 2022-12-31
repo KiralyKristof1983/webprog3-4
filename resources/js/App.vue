@@ -1,19 +1,19 @@
 <template>
   
   <div id="wrapper">   
-    <div class="sidebar" >
-      <span class="closeButton" >&times;</span>
+    <div class="sidebar" :class="{ showOverlay: overlayVisibility }">
+      <span class="closeButton" @click="hideOverlay">&times;</span>
       <p class="brand-title"><a href="./">Király Kristóf (UQHGWH)</a></p>
       
       <div class="side-links">
           <ul>
-            <li><router-link :to="{name: 'Index'}">Kezdőlap</router-link></li>
-            <li><router-link :to="{name: 'Jobs'}">Munkáim</router-link></li>
-            <li><router-link :to="{name: 'About'}">Rólam</router-link></li>
-            <li><router-link :to="{name: 'Contact'}">Kapcsolat</router-link></li>
-            <li><router-link :to="{name: 'Login'}">Belépés</router-link></li>
-            <li><router-link :to="{name: 'Register'}">Regisztráció</router-link></li>
-            <li><router-link :to="{name: 'Dashboard'}">Irányítópult</router-link></li>
+            <li><router-link @click="hideOverlay" :to="{name: 'Index'}">Kezdőlap</router-link></li>
+            <li><router-link @click="hideOverlay" :to="{name: 'Jobs'}">Munkáim</router-link></li>
+            <li><router-link @click="hideOverlay" :to="{name: 'About'}">Rólam</router-link></li>
+            <li><router-link @click="hideOverlay" :to="{name: 'Contact'}">Kapcsolat</router-link></li>
+            <li><router-link @click="hideOverlay" :to="{name: 'Login'}">Belépés</router-link></li>
+            <li><router-link @click="hideOverlay" :to="{name: 'Register'}">Regisztráció</router-link></li>
+            <li><router-link @click="hideOverlay" :to="{name: 'Dashboard'}">Irányítópult</router-link></li>
           </ul>
       </div>
 
@@ -29,7 +29,7 @@
         </footer>
       </div>
       
-      <div class="menuButton" >
+      <div class="menuButton" @click="ShowOverlay">
         <div class="bar"></div>
         <div class="bar"></div>
         <div class="bar"></div>        
@@ -52,7 +52,24 @@
       </footer>
     </div>
 </template>
+<script>
+export default {
+  data(){
+    return{
+      overlayVisibility: false,
+    };
+  },
+  methods: {
+    ShowOverlay() {
+      this.overlayVisibility = true;
+    },
 
+    hideOverlay() {
+      this.overlayVisibility = false;
+    },
+  },
+};
+</script>
 <style scoped>
   .showOverlay {
     width: 100%;
