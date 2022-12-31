@@ -3,15 +3,15 @@
     <form @submit.prevent="submit">
     <h3>Regisztálj itt!</h3>
     <label for="name">Név</label>
-    <input type="text" id="name" v-model="fields.name" />
+    <input type="text" id="name" v-model="fields.name"/>
     <span v-if="errors.name" class="error">{{ errors.name[0] }}</span>
 
     <label for="email">E-mail</label>
-    <input type="text" id="email" v-model="fields.email" />
+    <input type="text" id="email" v-model="fields.email"/>
     <span v-if="errors.email" class="error">{{ errors.email[0] }}</span>
 
     <label for="password">Jelszó</label>
-    <input type="password" id="password" v-model="fields.password" />
+    <input type="password" id="password" v-model="fields.password"/>
     <span v-if="errors.password" class="error">{{ errors.password[0] }}</span>
 
     <label for="password_confirmation">Jelszó megerősítése</label>
@@ -28,18 +28,16 @@ export default {
     data() {
         return {
             fields: {},
-            errors: {},
+            errors: {}
         };
     },
     methods: {
         submit() {
-            axios
-                .post("/api/register", this.fields)
-                .then(() => {
+            axios.post("/api/register", this.fields).then(()=>{
                     this.$router.push({ name: "Dashboard" });
                 })
                 .catch((error) => {
-                    this.errors = error.response.data.errors;
+                    this.errors = error.response.data.errors
                 });
         },
     },

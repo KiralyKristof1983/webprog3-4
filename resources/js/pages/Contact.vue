@@ -45,7 +45,7 @@
 
               
               <label for="subject"><span>Tárgy</span></label>
-              <input type="text" id="Subject" name="subject" value="" />
+              <input type="text" id="subject" name="subject" value="" />
 
 
               <label for="message"><span>Üzenet</span></label>

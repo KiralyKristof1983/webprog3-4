@@ -4,11 +4,11 @@ import Index from "../pages/Index.vue";
 import About from "../pages/About.vue";
 import Jobs from "../pages/Jobs.vue";
 import Contact from "../pages/Contact.vue";
-import SingleJob from "../pages/SingleJob.vue";
-import SingleJob2 from "../pages/SingleJob2.vue";
 import Login from "../pages/Login.vue";
 import Register from "../pages/Register.vue";
 import Dashboard from "../pages/Dashboard.vue";
+import SingleJob from "../pages/SingleJob.vue";
+import SingleJob2 from "../pages/SingleJob2.vue";
 import SingleJob3 from "../pages/SingleJob3.vue";
 import SingleJob4 from "../pages/SingleJob4.vue";
 
@@ -49,16 +49,20 @@ const routes = [
         path: "/login",
         name: "Login",
         component: Login,
+        meta:{requiresGuest: true},
     },
     {
         path: "/register",
         name: "Register",
         component: Register,
+        meta:{requiresGuest: true},
+        
     },
     {
         path: "/dashboard",
         name: "Dashboard",
         component: Dashboard,
+        meta:{requiresAuth: true},
     },
     {
         path: "/job/hp",
@@ -78,5 +82,23 @@ const router = createRouter({
     history: createWebHistory(),
     routes,
 });
+
+
+/**
+router.beforeEach((to, from) => {
+    const authenticated = localStorage.getItem("authenticated");
+
+    if (to.meta.requiresGuest && authenticated) {
+        return{
+            name: "Dashboard",
+        };
+    }else if (to.meta.requiresAuth && !authenticated) {
+        return { name: "Login",
+    };
+
+    }
+});
+*/
+
 
 export default router;

@@ -21,17 +21,14 @@
 
             <br />hp hq-tre 71025 boeblingen germany<br />
 
-            Eszköz neve	DESKTOP-LC6TNOE
-Processzor	Intel(R) Pentium(R) CPU  N3710  @ 1.60GHz   1.60 GHz
-Memória mérete	4,00 GB
-Eszköz azonosítója	B2356A1B-C7E0-49E7-A609-312E5F849D81
-Termékazonosító	00331-10000-00001-AA073
-Rendszer típusa	64 bites operációs rendszer, x64-alapú processzor
+Eszköz neve	DESKTOP-LC6TNOE<br>
+Processzor	Intel(R) Pentium(R) CPU  N3710  @ 1.60GHz   1.60 GHz<br>
+Memória mérete	4,00 GB<br>
+Eszköz azonosítója	B2356A1B-C7E0-49E7-A609-312E5F849D81<br>
+Termékazonosító	00331-10000-00001-AA073<br>
+Rendszer típusa	64 bites operációs rendszer, x64-alapú processzor<br>
 Toll és érintés	Ez a képernyő sem tollal történő, sem érintéses bevitelt nem tesz lehetővé
 
-        <ul>
-            
-          </ul>
         </p>
         </div>
       </section>
@@ -43,9 +40,7 @@ Toll és érintés	Ez a képernyő sem tollal történő, sem érintéses bevite
               <img src="/images/hplaptop1.jpg" alt="" loading="lazy" />
               <h4>
                 Ezzel a hp laptoppal dolgozok. <br /><br />
-                
 
-                
               </h4>
             </div>
           </a>
@@ -53,7 +48,7 @@ Toll és érintés	Ez a képernyő sem tollal történő, sem érintéses bevite
             <div class="recommended-card">
               <img src="/images/hplaptop2.jpg" alt="" loading="lazy" />
               <h4>
-                Bal oldalán 2 db usb, 1db hdmi és még egyébb csatlakozók vannak rajta.
+                Bal oldalán 2 db usb, 1db hdmi és még egyéb csatlakozók vannak rajta.
               </h4>
             </div>
           </a>
@@ -61,7 +56,7 @@ Toll és érintés	Ez a képernyő sem tollal történő, sem érintéses bevite
             <div class="recommended-card">
               <img src="/images/hplaptop3.jpg" alt="" loading="lazy" />
               <h4>
-              Jobb oldalán még plusz 1db usb csatlakozó van az sd kártya olvasó és cd olvasó mellett.
+              Jobb oldalán még plusz 1db usb csatlakozó van az sd kártya olvasó<br>és cd olvasó mellett.
               </h4>
             </div>
           </a>
